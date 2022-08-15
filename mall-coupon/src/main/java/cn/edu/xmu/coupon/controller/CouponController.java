@@ -30,7 +30,6 @@ import cn.edu.xmu.common.utils.R;
 public class CouponController {
     @Autowired
     private CouponService couponService;
-
     /**
      * 会员优惠券列表
      * @return
