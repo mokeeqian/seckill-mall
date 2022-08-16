@@ -60,11 +60,17 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.44</version>
         </dependency>
-<!--        nacos服务发现-->
+<!--        nacos注册中心-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
+<!--        nacos配置中心-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>
@@ -78,7 +84,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
